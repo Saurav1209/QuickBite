@@ -6,7 +6,6 @@
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
 - [API Documentation](#api-documentation)
 - [Contributing](#contributing)
 - [Contact](#contact)
@@ -79,6 +78,11 @@ Install dependencies:
 ```sh
 
 npm install
+```
+Create a .env file in the backend directory and add the following:
+
+```sh
+REACT_APP_API_BASE_URL = http://localhost:8080
 ```
 
 Start the frontend server:
